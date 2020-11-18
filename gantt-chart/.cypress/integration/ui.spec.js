@@ -17,18 +17,6 @@
 
 import { delay, GANTT_VIS_NAME, Y_LABEL, X_LABEL, DEFAULT_SIZE } from '../utils/constants';
 
-describe('Create sample index pattern', () => {
-  it('Creates sample index pattern', () => {
-    cy.visit('app/management/kibana/indexPatterns/create');
-    cy.get('[data-test-subj="createIndexPatternNameInput"]').type('jaeger{del}');
-    cy.wait(delay * 3);
-    cy.get('.euiButton__text').contains('Next step').click({ force: true });
-    cy.wait(delay * 3);
-    cy.get('.euiButton__text').contains('Create index pattern').click({ force: true });
-    cy.wait(delay * 5);
-  });
-});
-
 describe('Save a gantt chart', () => {
   beforeEach(() => {
     cy.visit('app/visualize#');
