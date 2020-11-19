@@ -5,4 +5,4 @@
 
 
 ### Maintenance
-* Upgrade to ODFE 1.12.0 ([#2](https://github.com/opendistro-for-elasticsearch/kibana-visualizations/pull/2))
+* Upgrade to ODFE 1.12.0 ([#3](https://github.com/opendistro-for-elasticsearch/kibana-visualizations/pull/3))
