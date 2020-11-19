@@ -9,12 +9,12 @@
   "scripts": {
     "kbn": "node ../../scripts/kbn",
     "lint": "eslint .",
-    "start": "plugin-helpers start",
+    "start": "yarn plugin-helpers start",
     "build": "yarn plugin-helpers build",
     "plugin-helpers": "node ../../scripts/plugin_helpers",
     "test:cypress": "cypress run",
-    "test:server": "plugin-helpers test:server",
-    "test:browser": "plugin-helpers test:browser"
+    "test:server": "yarn plugin-helpers test:server",
+    "test:browser": "yarn plugin-helpers test:browser"
   },
   "dependencies": {
     "plotly.js": "^1.54.1",
