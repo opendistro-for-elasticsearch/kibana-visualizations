@@ -11,7 +11,7 @@
     "lint": "eslint .",
     "build": "yarn plugin-helpers build",
     "plugin-helpers": "node ../../scripts/plugin_helpers",
-    "test:cypress": "cypress run",
+    "test:cypress": "cypress run"
   },
   "dependencies": {
     "plotly.js": "^1.54.1",
